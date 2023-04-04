@@ -23,9 +23,9 @@ public class Me {
   
   public void showInfo() {
     System.out.println(
-      "Name: " + name +
-      "\nAge: " + age +
-      "\nFrom:" + from
+      "Name: " + this.name +
+      "\nAge: " + this.age +
+      "\nFrom: " + this.from
     );
   }
 }
