@@ -13,10 +13,20 @@ public class Me {
   }
   
   public void study() {
-    System.out.println("Java - Spring Boot");
-    System.out.println("HTML");
-    System.out.println("CSS");
-    System.out.println("MySQL");
+    System.out.println(
+      "Java - Spring Boot" +
+      "\nHTML" +
+      "\nCSS" +
+      "\nMySQL"
+    );
+  }
+  
+  public void showInfo() {
+    System.out.println(
+      "Name: " + name +
+      "\nAge: " + age +
+      "\nFrom:" + from
+    );
   }
 }
 
@@ -31,6 +41,7 @@ public class Main {
       "Florianópolis, SC - Brazil"
     );
     
+    me.showInfo();
     me.study();
   }
 }
