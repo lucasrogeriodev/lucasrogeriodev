@@ -1,16 +1,54 @@
-### Hi there 👋
+```java
+package Model;
 
-<!--
-**lucasfelipe-py/lucasfelipe-py** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+public class Me {
+  private String name;
+  private int age;
+  private String from;
+  
+  public Me() {
+  } 
 
-Here are some ideas to get you started:
+  public Me(String name, int age, String from) {
+    this.name = name;
+    this.age = age;
+    this.from = from;
+  }
+  
+  public void setName() {
+  }
+  public String getName() {
+  }
+  public void setAge() {
+  }
+  public int getAge() {
+  }
+  public void setFrom() {
+  }
+  public String getFrom() {
+  }
+  
+  public void study() {
+    System.out.println("Java - Spring Boot");
+    System.out.println("HTML");
+    System.out.println("CSS");
+    System.out.println("MySQL");
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+package Main;
+import Model.Me;
+
+public class Main {
+  public static void main(String[] args) {
+    Me me = new Me(
+      "Lucas Felipe", 
+      28, 
+      "Florianópolis, SC - Brazil"
+    );
+    
+    me.study();
+  }
+}
+```
+
