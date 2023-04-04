@@ -5,27 +5,11 @@ public class Me {
   private String name;
   private int age;
   private String from;
-  
-  public Me() {
-  } 
-
+ 
   public Me(String name, int age, String from) {
     this.name = name;
     this.age = age;
     this.from = from;
-  }
-  
-  public void setName() {
-  }
-  public String getName() {
-  }
-  public void setAge() {
-  }
-  public int getAge() {
-  }
-  public void setFrom() {
-  }
-  public String getFrom() {
   }
   
   public void study() {
@@ -51,4 +35,3 @@ public class Main {
   }
 }
 ```
-
