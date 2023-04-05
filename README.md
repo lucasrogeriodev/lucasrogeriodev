@@ -5,11 +5,13 @@ public class Me {
   private String name;
   private int age;
   private String from;
+  private String educationOngoing;
  
-  public Me(String name, int age, String from) {
+  public Me(String name, int age, String from, String educationOngoing) {
     this.name = name;
     this.age = age;
     this.from = from;
+    this.educationOngoing = educationOngoing;
   }
   
   public void study() {
@@ -25,7 +27,8 @@ public class Me {
     System.out.println(
       "Name: " + this.name +
       "\nAge: " + this.age +
-      "\nFrom: " + this.from
+      "\nFrom: " + this.from +
+      "\nEducation (ongoing): " + this.educationOngoing
     );
   }
 }
@@ -38,7 +41,8 @@ public class Main {
     Me me = new Me(
       "Lucas Felipe", 
       28, 
-      "Florianópolis, SC - Brazil"
+      "Florianópolis, SC - Brazil",
+      "Information Systems - UNISUL"
     );
     
     me.showInfo();
