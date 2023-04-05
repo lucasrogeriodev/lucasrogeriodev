@@ -33,7 +33,6 @@ public class Me {
   }
 }
 ```
--------
 
 ```java
 package Main;
