@@ -1,4 +1,4 @@
-## Lucas F. Rogério
+## Lucas Felipe Rogério
 
 <div>
   <a href=https://github.com/lucasfelipe-py)https://github.com/lucasfelipe-py>
